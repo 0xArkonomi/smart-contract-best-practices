@@ -66,7 +66,7 @@ contract's fallback function to cost more than 2300 gas.
 
 It's recommended to stop using `.transfer()` and `.send()` and instead use `.call()`.
 
-```
+```sol
 // bad
 contract Vulnerable {
     function withdraw(uint256 amount) external {
